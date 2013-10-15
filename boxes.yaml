@@ -1,0 +1,13 @@
+Ubuntu:
+  precise64:
+    url: http://files.vagrantup.com/precise64.box
+    description: Base Precise 64 Box
+
+  django:
+    url: http://files.vagrantup.com/precise64.box
+    description: Django Base
+
+CentOS:
+  test1:
+    url: https://dl.dropbox.com/u/7225008/Vagrant/CentOS-6.3-x86_64-minimal.box
+    description: CentOS 6.3 x86_64 minimal
