@@ -1,18 +1,21 @@
 RabbitMQ:
-  - 5672
+  - port: 5672
 
 Redis:
-  - 6379
+  - port: 6379
 
 Cassandra:
-  - 9160: rpc_port (cqlsh)
-  - 9042: native_transport_port (datastax python lib)
+  - port: 9160
+    label: rpc_port (cqlsh)
+
+  - port: 9042
+    label: native_transport_port (datastax python lib)
 
 PostgreSQL:
-   - 5432
+   - port: 5432
 
 Elasticsearch:
-  - 9200
+  - port: 9200
 
 MongoDB:
-  - 27017
+  - port: 27017
