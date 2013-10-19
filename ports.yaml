@@ -11,6 +11,9 @@ Elasticsearch:
 MongoDB:
   - port: 27017
 
+Memcached:
+  - port: 11211
+  
 MySQL:
   - port: 3306
 
